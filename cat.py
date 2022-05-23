@@ -1,6 +1,5 @@
 class Cat:
     def __init__(self, color, cat_type, size):
-        self.size = size
         self.color = color
         self.cat_type = cat_type
 
@@ -22,6 +21,6 @@ class Tiger(Cat):
             self.size = "undefined"
 
 
-shir = Tiger(color="sari", cat_type="wild", size=12)
+shir = Tiger(color="sari", cat_type="wild", size=13)
 
 print(shir.size)
